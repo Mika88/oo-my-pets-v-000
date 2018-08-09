@@ -54,6 +54,4 @@ class Owner
   def sell_pets
       puts  self.pets.values
        end
-
-   end
 end
