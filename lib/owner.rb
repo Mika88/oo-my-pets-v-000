@@ -53,6 +53,6 @@ class Owner
   end
   def sell_pets
        self.pets.values.clear
-       puts pest
+       puts pets
   end
 end
