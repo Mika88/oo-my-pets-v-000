@@ -31,6 +31,5 @@ class Owner
       fish = Fish.new(name)
     self.pets["fishes"] = fish
     self.pets
-    end
   end
 end
