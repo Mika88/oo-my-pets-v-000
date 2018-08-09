@@ -27,9 +27,8 @@ class Owner
      "I am a #{self.species}."
   end
 
-  def buy_(name)
-     if name == fish
-      fish = Fish.new(pet_name)
+  def buy_fish(name)
+      fish = Fish.new(name)
     self.pets["fishes"] = fish
     self.pets
     end
