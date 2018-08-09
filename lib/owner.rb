@@ -49,3 +49,4 @@ class Owner
     Dog.mood
   end
 end
+binding.pry
