@@ -55,5 +55,6 @@ class Owner
         pets = self.pets.values
         pets.each{|pet| pet.mood = "nervous"}
         pets.clear
+        puts pets
   end
 end
