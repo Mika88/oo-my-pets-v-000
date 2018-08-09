@@ -53,7 +53,7 @@ class Owner
   end
   def sell_pets
         pets = self.pets.values
-        puts pets.class
+         puts pets 
 
   end
 end
