@@ -28,7 +28,9 @@ class Owner
   end
 
   def buy_(name)
-    fish = Fish.new(name)
-    pets["fishes"] = fish
+     if name == fish
+      fish = Fish.new(pet_name)
+    self.pets["fishes"] = fish
+    self.pets
   end
 end
