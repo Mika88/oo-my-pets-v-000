@@ -53,10 +53,10 @@ class Owner
   end
   def sell_pets
     sell = []
-      self.pets.each do |type, array| 
+      self.pets.each do |type, array|
         array.each{|pet| sell << pet}
       end
       puts sell
-      
+
        end
 end
