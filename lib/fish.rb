@@ -6,11 +6,4 @@ class Fish
       @name = name
       @mood = "nervous"
     end
-    def owner_name=(name)
-      if (self.owner.nil?)
-        self.owner = Owner.new(species)
-      else
-        self.owner.name = name
-      end
-    end
 end
