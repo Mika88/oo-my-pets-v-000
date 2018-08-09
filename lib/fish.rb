@@ -13,6 +13,5 @@ class Fish
         self.owner.name = name
       end
     end
-      
 end
 binding.pry
