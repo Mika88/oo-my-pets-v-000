@@ -37,5 +37,5 @@ class Owner
     self.pets[:cats] << cat
     self.pets
   end
-  
+
 end
