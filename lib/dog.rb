@@ -7,4 +7,4 @@ class Dog
     @mood = "nervous"
   end
 end
-binding.pry
+
