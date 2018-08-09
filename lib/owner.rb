@@ -49,4 +49,3 @@ class Owner
     Dog.mood
   end
 end
-
