@@ -52,8 +52,6 @@ class Owner
     self.pets[:fishes].each{|fish| fish.mood = "happy"}
   end
   def sell_pets
-     if self.pets.values.clear
-       self.pets.values.each{|pet| pet.mood = "nervous"}
-     end
+       self.pets.values.each{|pet| pet.mood = "nervous"}.clear
   end
 end
