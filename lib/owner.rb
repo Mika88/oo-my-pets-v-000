@@ -28,6 +28,6 @@ class Owner
   end
 
   def buy_(name)
-    
+
   end
 end
